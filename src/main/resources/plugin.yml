@@ -1,0 +1,15 @@
+name: SkillAPIAddon
+version: '${project.version}'
+main: net.devlarge.skillapiaddon.Main
+load: STARTUP
+depend: [SkillAPI]
+commands:
+  npcadd:
+    description: Adds an NPC UUID to the database, and a required level.
+  npcdel:
+    description: Removes an NPC UUID from the database, and required level.
+  npcgetitem:
+    description: Gives the different items for npc level regulation.
+  getlevel:
+    description: Getting the level of the class
+    aliases: [gl]
